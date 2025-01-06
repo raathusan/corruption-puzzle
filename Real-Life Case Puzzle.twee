@@ -1,0 +1,391 @@
+:: StoryTitle
+Real-Life Case Puzzle
+
+
+:: StoryData
+{
+  "ifid": "D38841CD-21E8-4BDD-A56A-C017575BE8FC",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 0.3
+}
+
+
+:: Apply Pressure {"position":"1300,500","size":"100,100"}
+\:: Apply Pressure
+The CEO threatens legal action but reveals inconsistencies in their story.
+
+[[Leak the interview to the media|Media Leak]]
+
+[[Continue investigating quietly|Quiet Pursuit]]
+
+
+:: Authorities {"position":"1000,400","size":"100,100"}
+\:: Authorities
+Law enforcement acts on your findings, leading to widespread arrests and reforms.
+
+**Congratulations! You’ve exposed corruption and sparked significant reforms.**
+
+[[Restart|Start]]
+
+
+:: Continued Exposure {"position":"1800,900","size":"100,100"}
+\:: Continued Exposure
+Your accurate analysis is featured globally, drawing more attention to the issue. The government announces reforms, and you’re credited for keeping the story alive.
+
+Congratulations! Your follow-up has created a ripple effect for change.
+
+[[Start Over|Start]]
+
+
+:: Corporate Scandal {"position":"1100,200","size":"100,100"}
+A whistleblower provides documents showing a multinational corporation's involvement in money laundering. 
+
+[[Confront executives directly|Executive Confrontation]]
+
+[[Analyze financial records secretly|Financial Records]]
+
+
+:: Correct Password {"position":"1100,900","size":"100,100"}
+\:: Correct Password
+You unlock the file and discover more critical details about the corruption. Armed with this information, you’re ready to break the story.  
+
+[[Publish the story|Impact]]  
+
+
+
+:: Correct Statement {"position":"1200,400","size":"100,100"}
+\:: Correct Statement
+You catch the inconsistency and the CEO stumbles over an explanation. They're clearly hiding something. 
+
+[[Press for more information|Apply Pressure]]
+
+[[Back off and analyze evidence|Financial Records]]
+
+
+:: Document Fallout {"position":"1600,700","size":"100,100"}
+\:: Document Fallout
+While documenting the fallout, you are arrested and face severe charges. NGOs campaign for your release.
+
+**You paid a heavy price, but your story changed lives.**
+
+[[Start Over|Start]]
+
+
+:: Document Leak {"position":"100,300","size":"100,100"}
+The document release creates a political crisis, but you are accused of bias.
+
+[[Defend your work publicly|Public Defense]]
+
+[[Avoid the spotlight and let the evidence speak|Low Profile]]
+
+
+:: Domestic Scandal {"position":"300,200","size":"100,100"}
+Leaked documents reveal collusion between politicians and corporations.
+
+[[Leak the documents online|Document Leak]]
+
+[[Seek an insider's perspective|Find Insider]]
+
+
+:: End {"position":"1800,500","size":"100,100"}
+\:: Wrong Answer
+You fail to identify critical evidence, and your investigation is dismissed.
+
+**GAME OVER**
+
+[[Restart|Start]]
+
+
+:: Executive Confrontation {"position":"1300,300","size":"100,100"}
+\:: Executive Confrontation
+You arrange a meeting with the CEO under the pretense of an interview. During the interview, the CEO makes contradictory statements. Can you identify the inconsistency?
+
+**What was the CEO's claimed net profit?**
+1. [[$10 million |Correct Statement]]
+2. [[$20 million |Incorrect]]
+
+
+
+:: Expose Extortion {"position":"1600,500","size":"100,100"}
+\:: Expose Extortion
+Your evidence of extortion is solid. You release the findings.
+
+[[Release the story|Public Outcry]]
+
+
+
+:: Financial Records {"position":"900,300","size":"100,100"}
+Your analysis uncovers suspicious payments to offshore accounts. The whistleblower suggests a secret meeting.
+
+[[Meet the whistleblower|Whistleblower Meeting]]
+
+[[Report your findings to law enforcement|Authorities]]
+
+
+
+:: Find Insider {"position":"500,300","size":"100,100"}
+An insider confirms the details of the corruption but demands anonymity.
+
+[[Honor their anonymity and publish|Responsible Publishing]]
+
+[[Push them for public testimony|Risky Testimony]]
+
+
+:: Follow-Up {"position":"1900,800","size":"100,100"}
+
+Here’s the "Follow-Up" section for your story:
+
+\:: Follow-Up
+You decide to write a detailed follow-up report to keep the momentum alive. Your piece explores the root causes of corruption and highlights the stories of individuals affected.
+
+Research Task:
+The NGO provides the following details about the corrupt system:
+
+Funds embezzled annually: $5 million.
+Average public service cost increase due to corruption: 25%.
+Use this data to calculate: If the region's public services originally cost $20 million annually, how much does corruption add to the cost?
+
+[[$5 million|Continued Exposure]]
+[[$10 million|Impact Lost]]
+
+
+:: Game Over {"position":"2000,300","size":"100,100"}
+\:: Wrong Answer
+You fail to identify critical evidence, and your investigation is dismissed.
+
+**GAME OVER**
+
+[[Restart|Start]]
+
+
+:: Grassroots Corruption {"position":"1900,200","size":"100,100"}
+\:: Grassroots Corruption
+You travel to a remote area to meet a grassroots activist exposing local government corruption. They provide detailed allegations but ask for your help in verifying them.
+
+**Verification Puzzle:**
+The activist claims the local mayor awarded all contracts to Company X. Using the provided data:
+- Contracts: $1 million, $3 million, $2 million,
+- Other Companies: None
+
+**What percentage of contracts did Company X win?**
+1. [[100%|Verified Claims]]
+
+2. [[75%|Game Over]]
+
+
+:: Impact {"position":"700,500","size":"100,100"}
+Your immediate publication shocks the world, but you face relentless personal attacks and threats.
+
+[[Continue the fight for truth|Public Defense]]
+
+[[Step away from the limelight for safety|Low Profile]]
+
+
+:: Impact 2 {"position":"1000,600","size":"100,100"}
+\:: Evidence Matches
+You prove the whistleblower’s story by matching the invoice to the right transaction. Now, you have strong proof to publish.  
+
+[[Publish the story|Impact]]  
+
+
+:: Impact Lost {"position":"2000,900","size":"100,100"}
+\:: Impact Lost
+Your report contains errors, weakening its credibility. The NGOs continue their work, but public interest wanes.
+
+Your story’s impact fades, but you’ve inspired future journalists to take up the cause.
+
+[[Start Over|Start]]
+
+
+:: Incorrect {"position":"1400,400","size":"100,100"}
+\:: Incorrect
+You fail to notice the inconsistency, and the CEO ends the meeting abruptly.
+
+**GAME OVER**
+
+[[Restart|Start]]
+
+
+:: Joint Release {"position":"1000,800","size":"100,100"}
+\:: Joint Release
+Your joint investigation leads to a groundbreaking exposé, sparking widespread reforms.
+
+**Congratulations! You exposed corruption and made history.**
+
+[[Start Over|Start]]
+
+
+:: Low Profile {"position":"200,400","size":"100,100"}
+By staying under the radar, your work inspires reforms over time.
+
+**Your investigation has sown the seeds of change. Well done!**
+
+[[Start Over|Start]]
+
+
+
+:: Media Leak {"position":"1200,600","size":"100,100"}
+\:: Media Leak
+Your leaked interview goes viral. Public opinion shifts, but you face severe backlash and threats. A rival journalist offers to collaborate.
+
+[[Accept their offer|Team Up]]
+
+[[Decline and proceed solo|Whistleblower Meeting]]
+
+
+:: NGO Partnership {"position":"1700,800","size":"100,100"}
+\:: NGO Partnership
+Your collaboration with NGOs leads to systemic reforms in the region.
+
+**You became a hero for grassroots movements worldwide.**
+
+[[Start Over|Start]]
+
+
+:: Public Defense {"position":"0,400","size":"100,100"}
+Your public defense garners support and inspires more whistleblowers to come forward.
+
+**You bring about significant accountability in your country. Congratulations!**
+
+[[Start Over|Start]]
+
+
+
+:: Public Outcry {"position":"1700,600","size":"100,100"}
+\:: Public Outcry
+Your story incites public outrage. Local authorities retaliate harshly.
+
+[[Document the fallout onsite|Document Fallout]]
+[[Leave and publish remotely|Remote Publishing]]
+
+
+:: Quiet Pursuit {"position":"1400,600","size":"100,100"}
+\:: Quiet Pursuit
+You gather more evidence quietly, uncovering a complex network of bribery and fraud. The whistleblower suggests a meeting.
+
+[[Meet the whistleblower|Whistleblower Meeting]]
+
+[[Report findings to law enforcement|Authorities]]
+
+
+:: Remote Publishing {"position":"1800,700","size":"100,100"}
+\:: Remote Publishing
+Your remote publishing attracts international attention, sparking NGO investigations.
+
+[[Collaborate with NGOs for reform|NGO Partnership]]
+[[Write a follow-up report|Follow-Up]]
+
+
+:: Research {"position":"900,500","size":"100,100"}
+\:: Research
+You decide to wait before publishing and check if the whistleblower's claims match other evidence.  
+
+**Research Puzzle:**  
+The whistleblower gave you these clues:  
+- Offshore account transactions: $1.2M, $2.5M, $3.1M.  
+- A suspicious invoice: "Consulting Fee - $2.5M."  
+
+Which transaction matches the invoice?  
+
+1. [[$2.5M |Impact 2]]  
+2. [[$3.1M|Wrong Match]]  
+
+
+:: Responsible Publishing {"position":"400,400","size":"100,100"}
+Your careful handling of the insider’s information earns widespread respect and ensures lasting impact.
+
+**You’ve made a lasting difference.**
+
+[[Start Over|Start]]
+
+
+:: Risky Testimony {"position":"600,400","size":"100,100"}
+The insider is exposed, leading to severe consequences. Public backlash damages your reputation.
+
+**Your misstep costs more than you could imagine.**
+
+[[Start Over|Start]]
+
+
+:: Solo Pursuit {"position":"1200,800","size":"100,100"}
+\:: Solo Pursuit
+You decide to continue your investigation alone. This means taking on all the risks but also having full control over the story.  
+
+Your source sends you an encrypted file that requires a password. You have these hints:  
+- The name of the CEO.  
+- The year the company was founded.  
+- The company’s slogan: "Innovation Beyond Limits."  
+
+What’s the correct password?  
+
+1. [[CEOName2020 |Correct Password]]  
+
+2. [[Innovation2020|Wrong Password]]  
+
+
+:: Start {"position":"1100,0","size":"100,100"}
+
+Your journey begins here. You are an investigative journalist tasked with uncovering corruption in various parts of the world. Each choice you make will shape the outcome of your story. Will you expose the truth, or will you succumb to the pressures of power?
+
+[[Follow a lead about corporate corruption|Corporate Scandal]]
+
+[[Investigate grassroots corruption overseas|Grassroots Corruption]]
+
+[[Look into domestic political collusion|Domestic Scandal]]
+
+
+
+:: Team Up {"position":"1100,700","size":"100,100"}
+\:: Team Up
+Teaming up with a rival journalist, you uncover a deeper conspiracy involving major political figures.
+
+[[Publish the findings together|Joint Release]]
+
+[[Use the partner as a decoy while continuing solo|Solo Pursuit]]
+
+
+:: Undercover {"position":"1700,400","size":"100,100"}
+\:: Undercover
+Living among locals, you uncover evidence of systemic corruption. To proceed, identify the primary method of extortion.
+
+**Clue Puzzle:**
+- Evidence: Villagers pay 10% of their income monthly to "inspectors."
+- Options:
+  1. [[Monthly "inspection fees."|Expose Extortion]]
+  
+  2. [[ Property taxes. |End]]
+
+
+:: Verified Claims {"position":"1800,300","size":"100,100"}
+\:: Verified Claims
+Your calculations confirm the activist's allegations. You decide to embed yourself for more evidence.
+
+[[Undercover|Undercover]]
+
+
+:: Whistleblower Meeting {"position":"800,400","size":"100,100"}
+The whistleblower reveals damning details but warns of serious danger.
+
+[[Publish the story immediately|Impact]]
+
+[[Corroborate the evidence further|Research]]
+
+
+:: Wrong Match {"position":"800,600","size":"100,100"}
+\:: Wrong Match
+The transaction you picked doesn’t match the invoice, and your story falls apart.  
+
+**GAME OVER**  
+
+[[Restart the Game|Start]]  
+
+
+:: Wrong Password {"position":"1300,900","size":"100,100"}
+\:: Wrong Password
+The file remains locked, and you miss your chance to uncover the full story.  
+
+**GAME OVER**  
+
+[[Restart the Game|Start]]  
